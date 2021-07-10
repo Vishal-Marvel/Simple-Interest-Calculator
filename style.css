@@ -1,4 +1,40 @@
-body {background-color:tan;}
-h1{color:green;}
-
-
+body {background-color:black;font-family: arial;color: white;font-weight: bold;}
+h1{color:grey;font-family: Verdana; text-align: center;}
+.maindiv{
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 20px;
+}
+.subdiv{
+    margin-left: 100px;
+}
+input[type=number]{
+    padding: 3px 0;
+    margin-left: 70px;
+}
+input[type=range]{
+    margin-left: 35px;
+}
+select{
+    margin-left: 35px;
+}
+button{
+    font-size: 15px;
+}
+.highlight{
+    background-color: yellow;
+    font-weight: bold;
+}
+.rate_val{
+    margin-left: 100px;
+}
+.result{
+    font-weight: 500;
+}
+footer{
+    font-weight: 500;
+}
